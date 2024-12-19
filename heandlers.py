@@ -28,7 +28,7 @@ class Pokupka(StatesGroup):
     code = State()
     id = State()
 
-bot=Bot(token='7585776111:AAHwz-FOu9kZ96piHD0ZlU8QrUBxqNgS8Bc')
+bot=Bot(token='TOKEN')
 
 
 @router.message(Command('writeuser'))
